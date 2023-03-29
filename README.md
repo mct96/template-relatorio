@@ -11,7 +11,7 @@ Disciplina: Redes de Computadores II
 ---
 # Configuração da rede ATM
 
-![90f747cba412372cd4af52a4e20d7fd3.png](:/adbde624264c48599743b7458ed1a2df)
+![topology](topology.png)
 
 As atividades consistem em configurar as interfaces dos roteadores R1 e R2 e os switches ATM ATMSWx. Primeiramente, as configurações dos roteadores é como segue:
 
@@ -42,13 +42,13 @@ encapsulation aal5snap
 Já a configuração dos switches ATM é como segue:
 
 ATMSW1:
-![855893a4789dd97ad39dcb7c832a24de.png](:/db6961bb1f0c403095ea65743d93ee24)
+![atm1.png](atm1.png)
 
 ATMSW2:
-![a514defbc875718381bb834b6e53a8d5.png](:/f57f648494c64b3991ec407c219dbdd3)
+![atm2.png](atm2.png)
 
 ATMSW3:
-![8f0dae744dc986141ebf9928e489fbb6.png](:/ee1c61d4e483443ca5ef4a5c942de9c6)
+![atm3.png](atm3.png)
 
 
 |Name|Port|VPI|VCI|Port|VPI|VCI|
