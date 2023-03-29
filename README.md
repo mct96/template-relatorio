@@ -15,7 +15,7 @@ Disciplina: Redes de Computadores II
 
 As atividades consistem em configurar as interfaces dos roteadores R1 e R2 e os switches ATM ATMSWx. Primeiramente, as configurações dos roteadores é como segue:
 
-R1:
+### R1:
 ```
 configure terminal
 int atm1/0
@@ -27,7 +27,7 @@ ip address 10.10.10.2 broadcast
 encapsulation aal5snap
 ```
 
-R2:
+#### R2:
 ```
 configure terminal
 int atm1/0
@@ -41,13 +41,17 @@ encapsulation aal5snap
 
 Já a configuração dos switches ATM é como segue:
 
-ATMSW1:
+
+### ATMSW1:
+
 ![atm1.png](atm1.png)
 
-ATMSW2:
+
+### ATMSW2:
 ![atm2.png](atm2.png)
 
-ATMSW3:
+
+### ATMSW3:
 ![atm3.png](atm3.png)
 
 
