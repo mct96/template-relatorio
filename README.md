@@ -23,7 +23,7 @@ no shutdown
 int atm1/0.100 point-to-point
 ip address 10.10.10.1 255.255.255.252
 pvc 100/101
-ip address 10.10.10.2 broadcast
+ip addr 10.10.10.2 broadcast
 encapsulation aal5snap
 ```
 
@@ -35,7 +35,7 @@ no shutdown
 int atm1/0.100 point-to-point
 ip address 10.10.10.2 255.255.255.252
 pvc 100/201
-ip address 10.10.10.1 broadcast
+ip addr 10.10.10.1 broadcast
 encapsulation aal5snap
 ```
 
